@@ -31,11 +31,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/memo.js"
-    ],
-    "/memo/[id]": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/memo/[id].js"
     ]
   },
   "ampFirstPages": []
