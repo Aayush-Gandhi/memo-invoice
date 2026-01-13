@@ -1,6 +1,6 @@
 export const COMPANY_INFO = {
     name: "Royalty Jewels LLC",
-    addressLine1: "1177, 6th Ave, Suite 511",
+    addressLine1: "37W 47th St., STU 603, ,",
     addressLine2: "New York, NY 10036",
     email: "royaltyjewelsllc@gmail.com",
     phone: "347-740-8333",
