@@ -90,11 +90,11 @@ export default function DownloadPDFButton({ memo }: { memo: any }) {
     doc.setFontSize(9);
     doc.text("Terms & Conditions:", 10, finalY + 26);
     doc.text(
-      "Goods sold are subject to approval & remain property until paid.",
+      "Goods sold are subject to approval & remain property until paid. The Diamonds here in invoiced have been purchased from legitimate sources not involved in funding conflict and compliance with United Nations resolutions. The seller hereby guarantees that these diamonds are conflict-free based on personal knowledge and/or written guarantees provided by the supplier of these diamonds.",
       10,
       finalY + 31
     );
-    doc.text("All disputes subject to local jurisdiction.", 10, finalY + 36);
+    doc.text("The Goods Described &Valued Above are Delivered To You by ROYALTY JEWELS LLC. The Buyers that is the company have purchased the above-described Goods and are Liable to make payment for the same on or before the Payment due date. Interest @ 2.5% Per Month will be charged if not paid within the Due Date. By receipt of the above Goods, the Buyer acknowledges that the above goods purchased are fully represented and disclosed as laboratory-grown", 10, finalY + 36);
 
     // Footer
     doc.text(`© ${COMPANY_INFO.name}`, 150, 290);
